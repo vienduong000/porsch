@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo{
+    text-align: center;
+    background-color: white;
+}
+.infor{
+    background-color: white;
+    padding: 5px 7% 1.5% 7%;
+}
+.infor_firstchild{
+    font-size: 42px;
+    padding-bottom:20px;
+}
+.infor_secondchild{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+.infor_group p:first-child{
+    font-size: 22px;
+    font-weight: 400;
+    color: red;
+}
+.introduce{
+    display: block;
+    display: flex;
+}
+.introduce_img img{
+    margin-left: 0;
+    width: 70%;
+    height: auto;
+}
+.introduce_text{
+    padding-left: 50px;
+}
+div.image{
+    background-image: url("../img/taycan/technical.PNG");
+    background-repeat: repeat;
+    width: 60rem;
+    height: 35rem;
+    background-size: cover;
+}
+.introduce_text_first-child{
+    font-size: 36px;
+
+}
+/* .introduce_text_group{
+    display: block;
+    display: flex;
+    padding-top: 80px;
+} */
+table{
+    display: block;
+    display: flex;
+    padding-top: 80px;
+}
+table tr td{
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
+.sending{
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* width: 50px;
+    height: 30px; */
+    text-decoration: none;
+    padding: 20px;
+}
+.sending:hover{
+    background-color: rgba(109, 6, 6, 0.623);
+}
+.buttons{
+    text-decoration: none;
+    /* margin: 25px 15px 25px 15px; */
+    display: block;
+    width: 200px;
+    height: 50px;
+    border-radius: 1px solid black;
+    display: flex;
+    justify-content: center;
+    line-height: auto;
+}
+.video_group{
+    padding-left: 50px;
+}
+.footer{
+    padding: 20px 2.5% 80px 2.5%;
+    background-color: rgb(239, 240, 241);
+    display: flex;
+    justify-content: space-between;
+}
+.footer div ul li{
+    color:black;
+    padding: 12px;
+    list-style: none;
+}
+.footer div ul{
+    flex-direction: column;
+}
+
+.footer div ul li:hover{
+    color: red;
+}
+.footer div ul li:first-child{
+    font-size: 25px;
+}
+
+.m-308:not(.module-overlap-next) .m-308-background-wrapper {
+    margin-bottom: -1px;
+}
+.m-308-background-wrapper {
+    bottom: 0;
+    height: 100vh;
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    overflow: hidden;
+}
+.module-grid {
+    margin-left: -3.09%;
+    background-color: inherit;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+div.text-colection-2{
+    position: absolute;
+    z-index: 100;
+    top: 400px;
+}
+div.text-colection-2 p {
+    color: white;
+}
+div.text-colection-1{
+    position: absolute;
+    z-index: 100;
+    top: 400px;
+}
+div.text-colection-1 p {
+    color: black;
+}
+
+div.fx-lex{
+    position: relative;
+}
+.text-colection-2{
+    margin-left: 30px;
+}
+.text-colection-1{
+    margin-left:50px;
+}
+.buttons{
+    border-radius: 3px;
+    background-color:  rgba(253, 249, 249, 0.541);
+    padding-top: 18px;
+}
+

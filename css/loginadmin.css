@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    background: url(../img/login_admin/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.main{
+    width:540px;
+    height: 650px;
+    margin-left: 100px;
+    background: rgba(255, 255, 255, 0.534);
+    border-radius: 5px;
+    box-shadow: 0 20px 20px rgba(13, 13, 14, 1);
+}
+div.main img{
+    display: block;
+    width: 123px;
+    height: 75px;
+    padding: 0 35% 0 35%;
+}
+.welcome{
+    font-size: 36px;
+    text-align: center;
+    padding: 35px 0 45px 0;
+}
+.infor{
+    display: flex;
+    
+}
